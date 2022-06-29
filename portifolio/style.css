@@ -1,0 +1,81 @@
+/*======== GERAL =======*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --hue: 170;
+  --background: hsl(0, 0%, 0%);
+  --cor-letra: hsl(0, 100%, 100%);
+
+
+
+  font-size: 62.5%; /* 1rem = 10px */
+
+  --nav-height: 7.2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Inter";
+  font-size: 5rem;
+
+  text-align: center;
+
+  overflow: overlay;
+
+  background-color: var(--background);
+}
+
+.wrapper {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  padding-block: 10rem;
+}
+
+section header h1 {
+  font-size: 7.0rem;
+  color: hsl(0, 100%, 100%);
+  line-height: 92.52%;
+
+  margin-bottom: 3.3rem;
+}
+
+section .content p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+
+  color: var(--cor-letra);
+}
+
+section .work h3 {
+  font-weight: 600;
+  font-size: 4.4rem;
+  line-height: 4.2rem;
+
+  color: var(--cor-letra);
+}
+
+.social-links {}
+/*====== NAVIGATION ========*/
