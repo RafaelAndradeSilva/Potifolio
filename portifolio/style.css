@@ -77,5 +77,15 @@ section .work h3 {
   color: var(--cor-letra);
 }
 
-.social-links {}
+.social-links {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+}
+
 /*====== NAVIGATION ========*/
+nav
+
+nav div.wrapper 
+
